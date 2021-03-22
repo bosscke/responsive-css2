@@ -24,7 +24,7 @@ nav {
 
 #nav-container {
 
-	border: 1px solid black;
+	border-right: 1px solid #aaa;
 	float: left;
 	width: 150px;
 	padding: 15px 15px 15px 30px;
@@ -35,5 +35,37 @@ nav {
 font-size: 16px;
 font-weight: 600;
 text-transform: uppercase;
+
+}
+
+ul.nav {
+
+	padding: 0;
+	list-style-type: none;
+}
+
+ul.nav li a { 
+
+	display: block;
+	width: 100%;
+	border: 1px solid red; 
+	color: #000;
+	text-decoration:none;
+	padding: 3px 0;
+
+}
+
+ul.nav li a:hover {
+
+	color: #555;
+
+}
+
+#body {
+
+	float: left;
+	width: calc(100% - 250px);
+	border: 1px solid red;
+	padding: 15px;
 
 }
