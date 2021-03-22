@@ -69,3 +69,38 @@ ul.nav li a:hover {
 	padding: 15px;
 
 }
+
+blockquote {
+	font-style: italic;
+	background-color: #fff;
+	border: 2px solid #ccc;
+	padding: 15px;
+	font-size: 24px;
+}
+
+blockquote::after {
+
+	content: '" -Trapatto Kranz';
+}
+
+blockquote::before {
+
+	content: "" ;
+}
+
+.row {
+
+	display: block;
+	width: 100%;
+	padding: 15px;
+}
+
+.col1, .col2, .col3 {
+
+	display: inline-block;
+	width: calc (31% - 60px);
+	padding: 0 30px;
+	border: 1px solid blue;
+	text-align: center;
+}
+
