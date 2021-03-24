@@ -1,4 +1,4 @@
 
 
-let trapatto = "leer"
-if (trapatto === "leer") alert ("Strunz! Was macht Strunz?! Strunz wie eine Flasche leer!")
+let testing = "test"
+if (test === "test") alert ("test!")

@@ -80,7 +80,7 @@ blockquote {
 
 blockquote::after {
 
-	content: '" -Trapatto Kranz';
+	content: '" -Another Quote';
 }
 
 blockquote::before {
